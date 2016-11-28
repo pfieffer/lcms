@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+  padding-top: 40px; 
+
+/* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+/* Negative indent footer by its height */
+  margin: 0 auto -60px;
+/* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+
+}
+
+code {
+  font-size: 80%;
+
+}
+#logo
+{
+	margin-top: -16px;
+	width: 110px;
+	height: 50px;
+}
+#login
+{
+	margin-top: -6px;
+	}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #1dcaff;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /*BACKGROUND color for active*/
+background-color: #030033;
+
+}
+
+  .navbar-default {
+    background-color: black;
+    border-color: #030033;
+}
+
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #262626;
+   text-decoration: none;
+  background-color: #66CCFF;  /*change color of links in drop down here*/
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
+
+  #well-footer{background-color: black;
+    border-color: #030033;
+
+  }
+
+#sm-footer{color: white;}
+  #heder{
+    font-weight: bold;
+  }
+  body{
+     background: -moz-linear-gradient(center top , #FFFFFF, #82A3E6) repeat fixed 0 0 rgba(0, 0, 0, 0);
+}
+#ncelms{
+  font-weight: bold;
+color:white;
+font-style: italic;
+
+}
