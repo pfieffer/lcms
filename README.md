@@ -1,6 +1,6 @@
 # College website with CMS  
 
-** College website with features: **
+**College website with features:**
 
 - Fully responsive college website.
 - Teacher and student Login.
